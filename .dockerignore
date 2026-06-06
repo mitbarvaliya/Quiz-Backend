@@ -1,0 +1,16 @@
+.env
+.git
+.gitattributes
+.gitignore
+.vscode
+node_modules
+vendor
+storage/logs/*
+storage/framework/cache/data/*
+!storage/logs/.gitkeep
+!storage/framework/cache/data/.gitkeep
+.docker
+Dockerfile
+docker-compose.yml
+*.md
+test_otp.php
